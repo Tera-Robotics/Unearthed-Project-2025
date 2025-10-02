@@ -484,4 +484,8 @@ function createInfoWindowContent(markerData) {
     </div>
   `;
 }
+window.lastMarkerData = lastMarkerData;
+window.showInfo = showInfo;
+window.goBackToMarker = goBackToMarker;
+window.showRoutesInfo = showRoutesInfo;
 }
